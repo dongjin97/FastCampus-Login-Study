@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8D5D6F92910F41000DF4380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D5D6F82910F41000DF4380 /* AppDelegate.swift */; };
+		F8D5D6FB2910F41000DF4380 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D5D6FA2910F41000DF4380 /* SceneDelegate.swift */; };
+		F8D5D6FD2910F41000DF4380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D5D6FC2910F41000DF4380 /* ViewController.swift */; };
+		F8D5D7002910F41000DF4380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D5D6FE2910F41000DF4380 /* Main.storyboard */; };
+		F8D5D7022910F41100DF4380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D5D7012910F41100DF4380 /* Assets.xcassets */; };
+		F8D5D7052910F41100DF4380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D5D7032910F41100DF4380 /* LaunchScreen.storyboard */; };
+		F8D5D7102910F41100DF4380 /* FastCamLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D5D70F2910F41100DF4380 /* FastCamLoginTests.swift */; };
+		F8D5D71A2910F41100DF4380 /* FastCamLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D5D7192910F41100DF4380 /* FastCamLoginUITests.swift */; };
+		F8D5D71C2910F41100DF4380 /* FastCamLoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D5D71B2910F41100DF4380 /* FastCamLoginUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8D5D70C2910F41100DF4380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D5D6ED2910F41000DF4380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D5D6F42910F41000DF4380;
+			remoteInfo = FastCamLogin;
+		};
+		F8D5D7162910F41100DF4380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D5D6ED2910F41000DF4380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D5D6F42910F41000DF4380;
+			remoteInfo = FastCamLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8D5D6F52910F41000DF4380 /* FastCamLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastCamLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D5D6F82910F41000DF4380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8D5D6FA2910F41000DF4380 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F8D5D6FC2910F41000DF4380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8D5D6FF2910F41000DF4380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8D5D7012910F41100DF4380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8D5D7042910F41100DF4380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8D5D7062910F41100DF4380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D5D70B2910F41100DF4380 /* FastCamLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastCamLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D5D70F2910F41100DF4380 /* FastCamLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastCamLoginTests.swift; sourceTree = "<group>"; };
+		F8D5D7152910F41100DF4380 /* FastCamLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastCamLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D5D7192910F41100DF4380 /* FastCamLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastCamLoginUITests.swift; sourceTree = "<group>"; };
+		F8D5D71B2910F41100DF4380 /* FastCamLoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastCamLoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8D5D6F22910F41000DF4380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D5D7082910F41100DF4380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D5D7122910F41100DF4380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8D5D6EC2910F41000DF4380 = {
+			isa = PBXGroup;
+			children = (
+				F8D5D6F72910F41000DF4380 /* FastCamLogin */,
+				F8D5D70E2910F41100DF4380 /* FastCamLoginTests */,
+				F8D5D7182910F41100DF4380 /* FastCamLoginUITests */,
+				F8D5D6F62910F41000DF4380 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8D5D6F62910F41000DF4380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8D5D6F52910F41000DF4380 /* FastCamLogin.app */,
+				F8D5D70B2910F41100DF4380 /* FastCamLoginTests.xctest */,
+				F8D5D7152910F41100DF4380 /* FastCamLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8D5D6F72910F41000DF4380 /* FastCamLogin */ = {
+			isa = PBXGroup;
+			children = (
+				F8D5D6F82910F41000DF4380 /* AppDelegate.swift */,
+				F8D5D6FA2910F41000DF4380 /* SceneDelegate.swift */,
+				F8D5D6FC2910F41000DF4380 /* ViewController.swift */,
+				F8D5D6FE2910F41000DF4380 /* Main.storyboard */,
+				F8D5D7012910F41100DF4380 /* Assets.xcassets */,
+				F8D5D7032910F41100DF4380 /* LaunchScreen.storyboard */,
+				F8D5D7062910F41100DF4380 /* Info.plist */,
+			);
+			path = FastCamLogin;
+			sourceTree = "<group>";
+		};
+		F8D5D70E2910F41100DF4380 /* FastCamLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8D5D70F2910F41100DF4380 /* FastCamLoginTests.swift */,
+			);
+			path = FastCamLoginTests;
+			sourceTree = "<group>";
+		};
+		F8D5D7182910F41100DF4380 /* FastCamLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8D5D7192910F41100DF4380 /* FastCamLoginUITests.swift */,
+				F8D5D71B2910F41100DF4380 /* FastCamLoginUITestsLaunchTests.swift */,
+			);
+			path = FastCamLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8D5D6F42910F41000DF4380 /* FastCamLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D5D71F2910F41100DF4380 /* Build configuration list for PBXNativeTarget "FastCamLogin" */;
+			buildPhases = (
+				F8D5D6F12910F41000DF4380 /* Sources */,
+				F8D5D6F22910F41000DF4380 /* Frameworks */,
+				F8D5D6F32910F41000DF4380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastCamLogin;
+			productName = FastCamLogin;
+			productReference = F8D5D6F52910F41000DF4380 /* FastCamLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8D5D70A2910F41100DF4380 /* FastCamLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D5D7222910F41100DF4380 /* Build configuration list for PBXNativeTarget "FastCamLoginTests" */;
+			buildPhases = (
+				F8D5D7072910F41100DF4380 /* Sources */,
+				F8D5D7082910F41100DF4380 /* Frameworks */,
+				F8D5D7092910F41100DF4380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D5D70D2910F41100DF4380 /* PBXTargetDependency */,
+			);
+			name = FastCamLoginTests;
+			productName = FastCamLoginTests;
+			productReference = F8D5D70B2910F41100DF4380 /* FastCamLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8D5D7142910F41100DF4380 /* FastCamLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D5D7252910F41100DF4380 /* Build configuration list for PBXNativeTarget "FastCamLoginUITests" */;
+			buildPhases = (
+				F8D5D7112910F41100DF4380 /* Sources */,
+				F8D5D7122910F41100DF4380 /* Frameworks */,
+				F8D5D7132910F41100DF4380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D5D7172910F41100DF4380 /* PBXTargetDependency */,
+			);
+			name = FastCamLoginUITests;
+			productName = FastCamLoginUITests;
+			productReference = F8D5D7152910F41100DF4380 /* FastCamLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8D5D6ED2910F41000DF4380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F8D5D6F42910F41000DF4380 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F8D5D70A2910F41100DF4380 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F8D5D6F42910F41000DF4380;
+					};
+					F8D5D7142910F41100DF4380 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F8D5D6F42910F41000DF4380;
+					};
+				};
+			};
+			buildConfigurationList = F8D5D6F02910F41000DF4380 /* Build configuration list for PBXProject "FastCamLogin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8D5D6EC2910F41000DF4380;
+			productRefGroup = F8D5D6F62910F41000DF4380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8D5D6F42910F41000DF4380 /* FastCamLogin */,
+				F8D5D70A2910F41100DF4380 /* FastCamLoginTests */,
+				F8D5D7142910F41100DF4380 /* FastCamLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8D5D6F32910F41000DF4380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D5D7052910F41100DF4380 /* LaunchScreen.storyboard in Resources */,
+				F8D5D7022910F41100DF4380 /* Assets.xcassets in Resources */,
+				F8D5D7002910F41000DF4380 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D5D7092910F41100DF4380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D5D7132910F41100DF4380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8D5D6F12910F41000DF4380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D5D6FD2910F41000DF4380 /* ViewController.swift in Sources */,
+				F8D5D6F92910F41000DF4380 /* AppDelegate.swift in Sources */,
+				F8D5D6FB2910F41000DF4380 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D5D7072910F41100DF4380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D5D7102910F41100DF4380 /* FastCamLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D5D7112910F41100DF4380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D5D71C2910F41100DF4380 /* FastCamLoginUITestsLaunchTests.swift in Sources */,
+				F8D5D71A2910F41100DF4380 /* FastCamLoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8D5D70D2910F41100DF4380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D5D6F42910F41000DF4380 /* FastCamLogin */;
+			targetProxy = F8D5D70C2910F41100DF4380 /* PBXContainerItemProxy */;
+		};
+		F8D5D7172910F41100DF4380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D5D6F42910F41000DF4380 /* FastCamLogin */;
+			targetProxy = F8D5D7162910F41100DF4380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8D5D6FE2910F41000DF4380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D5D6FF2910F41000DF4380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8D5D7032910F41100DF4380 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D5D7042910F41100DF4380 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8D5D71D2910F41100DF4380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8D5D71E2910F41100DF4380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8D5D7202910F41100DF4380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G47XHXXQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FastCamLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fastcampus.study.co.kr.FastCamLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8D5D7212910F41100DF4380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G47XHXXQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FastCamLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fastcampus.study.co.kr.FastCamLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8D5D7232910F41100DF4380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G47XHXXQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fastcampus.study.co.kr.FastCamLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastCamLogin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FastCamLogin";
+			};
+			name = Debug;
+		};
+		F8D5D7242910F41100DF4380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G47XHXXQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fastcampus.study.co.kr.FastCamLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastCamLogin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FastCamLogin";
+			};
+			name = Release;
+		};
+		F8D5D7262910F41100DF4380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G47XHXXQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fastcampus.study.co.kr.FastCamLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FastCamLogin;
+			};
+			name = Debug;
+		};
+		F8D5D7272910F41100DF4380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G47XHXXQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fastcampus.study.co.kr.FastCamLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FastCamLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8D5D6F02910F41000DF4380 /* Build configuration list for PBXProject "FastCamLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D5D71D2910F41100DF4380 /* Debug */,
+				F8D5D71E2910F41100DF4380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D5D71F2910F41100DF4380 /* Build configuration list for PBXNativeTarget "FastCamLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D5D7202910F41100DF4380 /* Debug */,
+				F8D5D7212910F41100DF4380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D5D7222910F41100DF4380 /* Build configuration list for PBXNativeTarget "FastCamLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D5D7232910F41100DF4380 /* Debug */,
+				F8D5D7242910F41100DF4380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D5D7252910F41100DF4380 /* Build configuration list for PBXNativeTarget "FastCamLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D5D7262910F41100DF4380 /* Debug */,
+				F8D5D7272910F41100DF4380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8D5D6ED2910F41000DF4380 /* Project object */;
+}
