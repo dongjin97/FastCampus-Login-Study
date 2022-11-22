@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A357D03011A2C9D2501D988 /* Pods_FastCamLoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F34E98D1FBCE08AE9D5958C /* Pods_FastCamLoginTests.framework */; };
+		DBA2EB4A8205196E82078E99 /* Pods_FastCamLogin_FastCamLoginUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51DCF1B9EF2F7124462971F4 /* Pods_FastCamLogin_FastCamLoginUITests.framework */; };
+		F0C2B06A1D687EE30131BE0D /* Pods_FastCamLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77161BBEF362AD4422B0434 /* Pods_FastCamLogin.framework */; };
 		F8364503292C7E5900830B47 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8364502292C7E5800830B47 /* GoogleService-Info.plist */; };
-		F8364506292C80D200830B47 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F8364505292C80D200830B47 /* FirebaseAuth */; };
-		F836450D292C9BB500830B47 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = F836450C292C9BB500830B47 /* GoogleSignIn */; };
-		F836450F292C9BB500830B47 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F836450E292C9BB500830B47 /* GoogleSignInSwift */; };
 		F8D5D6F92910F41000DF4380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D5D6F82910F41000DF4380 /* AppDelegate.swift */; };
 		F8D5D6FB2910F41000DF4380 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D5D6FA2910F41000DF4380 /* SceneDelegate.swift */; };
 		F8D5D7002910F41000DF4380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D5D6FE2910F41000DF4380 /* Main.storyboard */; };
@@ -42,7 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		127459B626ACE0F63950042B /* Pods-FastCamLogin-FastCamLoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastCamLogin-FastCamLoginUITests.release.xcconfig"; path = "Target Support Files/Pods-FastCamLogin-FastCamLoginUITests/Pods-FastCamLogin-FastCamLoginUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4ACCC0A6B796ABC969660F66 /* Pods-FastCamLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastCamLogin.debug.xcconfig"; path = "Target Support Files/Pods-FastCamLogin/Pods-FastCamLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		4F34E98D1FBCE08AE9D5958C /* Pods_FastCamLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastCamLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEC53E55B8CFC802FFD6D86 /* Pods-FastCamLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastCamLoginTests.release.xcconfig"; path = "Target Support Files/Pods-FastCamLoginTests/Pods-FastCamLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		51DCF1B9EF2F7124462971F4 /* Pods_FastCamLogin_FastCamLoginUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastCamLogin_FastCamLoginUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D58AE9FFB52773A1AB07B23 /* Pods-FastCamLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastCamLoginTests.debug.xcconfig"; path = "Target Support Files/Pods-FastCamLoginTests/Pods-FastCamLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90EF3B10CA13A03B51509CEB /* Pods-FastCamLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastCamLogin.release.xcconfig"; path = "Target Support Files/Pods-FastCamLogin/Pods-FastCamLogin.release.xcconfig"; sourceTree = "<group>"; };
+		F77161BBEF362AD4422B0434 /* Pods_FastCamLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastCamLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F777D479818C3664A9B7508B /* Pods-FastCamLogin-FastCamLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastCamLogin-FastCamLoginUITests.debug.xcconfig"; path = "Target Support Files/Pods-FastCamLogin-FastCamLoginUITests/Pods-FastCamLogin-FastCamLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8364502292C7E5800830B47 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F836455C292CE5B700830B47 /* FastCamLogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FastCamLogin.entitlements; sourceTree = "<group>"; };
 		F8D5D6F52910F41000DF4380 /* FastCamLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastCamLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D5D6F82910F41000DF4380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8D5D6FA2910F41000DF4380 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,9 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F836450F292C9BB500830B47 /* GoogleSignInSwift in Frameworks */,
-				F8364506292C80D200830B47 /* FirebaseAuth in Frameworks */,
-				F836450D292C9BB500830B47 /* GoogleSignIn in Frameworks */,
+				F0C2B06A1D687EE30131BE0D /* Pods_FastCamLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A357D03011A2C9D2501D988 /* Pods_FastCamLoginTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +91,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA2EB4A8205196E82078E99 /* Pods_FastCamLogin_FastCamLoginUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01FAFC68431EE4C2A960D1B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4ACCC0A6B796ABC969660F66 /* Pods-FastCamLogin.debug.xcconfig */,
+				90EF3B10CA13A03B51509CEB /* Pods-FastCamLogin.release.xcconfig */,
+				F777D479818C3664A9B7508B /* Pods-FastCamLogin-FastCamLoginUITests.debug.xcconfig */,
+				127459B626ACE0F63950042B /* Pods-FastCamLogin-FastCamLoginUITests.release.xcconfig */,
+				7D58AE9FFB52773A1AB07B23 /* Pods-FastCamLoginTests.debug.xcconfig */,
+				4FEC53E55B8CFC802FFD6D86 /* Pods-FastCamLoginTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		29EBAF9E562405EF6060A1F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F77161BBEF362AD4422B0434 /* Pods_FastCamLogin.framework */,
+				51DCF1B9EF2F7124462971F4 /* Pods_FastCamLogin_FastCamLoginUITests.framework */,
+				4F34E98D1FBCE08AE9D5958C /* Pods_FastCamLoginTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F8364507292C81CA00830B47 /* VC */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +138,8 @@
 				F8D5D70E2910F41100DF4380 /* FastCamLoginTests */,
 				F8D5D7182910F41100DF4380 /* FastCamLoginUITests */,
 				F8D5D6F62910F41000DF4380 /* Products */,
+				01FAFC68431EE4C2A960D1B2 /* Pods */,
+				29EBAF9E562405EF6060A1F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +156,7 @@
 		F8D5D6F72910F41000DF4380 /* FastCamLogin */ = {
 			isa = PBXGroup;
 			children = (
+				F836455C292CE5B700830B47 /* FastCamLogin.entitlements */,
 				F8364507292C81CA00830B47 /* VC */,
 				F8D5D6FE2910F41000DF4380 /* Main.storyboard */,
 				F8D5D7012910F41100DF4380 /* Assets.xcassets */,
@@ -157,20 +193,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8D5D71F2910F41100DF4380 /* Build configuration list for PBXNativeTarget "FastCamLogin" */;
 			buildPhases = (
+				7C8EBE3A9934BE25D80BA5BD /* [CP] Check Pods Manifest.lock */,
 				F8D5D6F12910F41000DF4380 /* Sources */,
 				F8D5D6F22910F41000DF4380 /* Frameworks */,
 				F8D5D6F32910F41000DF4380 /* Resources */,
+				C6088043BBE3BB50CE821B36 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FastCamLogin;
-			packageProductDependencies = (
-				F8364505292C80D200830B47 /* FirebaseAuth */,
-				F836450C292C9BB500830B47 /* GoogleSignIn */,
-				F836450E292C9BB500830B47 /* GoogleSignInSwift */,
-			);
 			productName = FastCamLogin;
 			productReference = F8D5D6F52910F41000DF4380 /* FastCamLogin.app */;
 			productType = "com.apple.product-type.application";
@@ -179,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8D5D7222910F41100DF4380 /* Build configuration list for PBXNativeTarget "FastCamLoginTests" */;
 			buildPhases = (
+				4B8B1F813B0D917E0F4ED9DF /* [CP] Check Pods Manifest.lock */,
 				F8D5D7072910F41100DF4380 /* Sources */,
 				F8D5D7082910F41100DF4380 /* Frameworks */,
 				F8D5D7092910F41100DF4380 /* Resources */,
@@ -197,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8D5D7252910F41100DF4380 /* Build configuration list for PBXNativeTarget "FastCamLoginUITests" */;
 			buildPhases = (
+				066754306947E0DC4B8C04B8 /* [CP] Check Pods Manifest.lock */,
 				F8D5D7112910F41100DF4380 /* Sources */,
 				F8D5D7122910F41100DF4380 /* Frameworks */,
 				F8D5D7132910F41100DF4380 /* Resources */,
+				07AB3BA4255D79D07205CB07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -243,10 +279,6 @@
 				Base,
 			);
 			mainGroup = F8D5D6EC2910F41000DF4380;
-			packageReferences = (
-				F8364504292C80D200830B47 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				F836450B292C9BB500830B47 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
-			);
 			productRefGroup = F8D5D6F62910F41000DF4380 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -285,6 +317,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		066754306947E0DC4B8C04B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastCamLogin-FastCamLoginUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		07AB3BA4255D79D07205CB07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastCamLogin-FastCamLoginUITests/Pods-FastCamLogin-FastCamLoginUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastCamLogin-FastCamLoginUITests/Pods-FastCamLogin-FastCamLoginUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FastCamLogin-FastCamLoginUITests/Pods-FastCamLogin-FastCamLoginUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B8B1F813B0D917E0F4ED9DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastCamLoginTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C8EBE3A9934BE25D80BA5BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastCamLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6088043BBE3BB50CE821B36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastCamLogin/Pods-FastCamLogin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastCamLogin/Pods-FastCamLogin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FastCamLogin/Pods-FastCamLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F8D5D6F12910F41000DF4380 /* Sources */ = {
@@ -467,9 +602,11 @@
 		};
 		F8D5D7202910F41100DF4380 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACCC0A6B796ABC969660F66 /* Pods-FastCamLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FastCamLogin/FastCamLogin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4G47XHXXQX;
@@ -495,9 +632,11 @@
 		};
 		F8D5D7212910F41100DF4380 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90EF3B10CA13A03B51509CEB /* Pods-FastCamLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FastCamLogin/FastCamLogin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4G47XHXXQX;
@@ -523,6 +662,7 @@
 		};
 		F8D5D7232910F41100DF4380 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D58AE9FFB52773A1AB07B23 /* Pods-FastCamLoginTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -543,6 +683,7 @@
 		};
 		F8D5D7242910F41100DF4380 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FEC53E55B8CFC802FFD6D86 /* Pods-FastCamLoginTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -563,6 +704,7 @@
 		};
 		F8D5D7262910F41100DF4380 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F777D479818C3664A9B7508B /* Pods-FastCamLogin-FastCamLoginUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -581,6 +723,7 @@
 		};
 		F8D5D7272910F41100DF4380 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 127459B626ACE0F63950042B /* Pods-FastCamLogin-FastCamLoginUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -637,43 +780,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		F8364504292C80D200830B47 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 9.0.0;
-			};
-		};
-		F836450B292C9BB500830B47 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		F8364505292C80D200830B47 /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F8364504292C80D200830B47 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		F836450C292C9BB500830B47 /* GoogleSignIn */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F836450B292C9BB500830B47 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignIn;
-		};
-		F836450E292C9BB500830B47 /* GoogleSignInSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F836450B292C9BB500830B47 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignInSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F8D5D6ED2910F41000DF4380 /* Project object */;
 }

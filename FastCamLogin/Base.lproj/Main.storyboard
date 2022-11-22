@@ -235,8 +235,28 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYW-au-P8r">
+                                <rect key="frame" x="148.5" y="483" width="117" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="비밀번호 변경">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="resetPasswordButotn:" destination="Aca-GY-s4C" eventType="touchUpInside" id="izq-ce-ABy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8C-mQ-9pQ">
+                                <rect key="frame" x="141.5" y="538" width="131.5" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="닉네임 업데이트">
+                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="profileUpdateButtonTapped:" destination="Aca-GY-s4C" eventType="touchUpInside" id="EwX-5e-fHj"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ezf-2q-K7K">
-                                <rect key="frame" x="175.5" y="483" width="63" height="34"/>
+                                <rect key="frame" x="175.5" y="593" width="63" height="34"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="로그아웃">
@@ -252,11 +272,16 @@
                         <constraints>
                             <constraint firstItem="edp-L6-yPR" firstAttribute="centerY" secondItem="xDb-8L-Bb2" secondAttribute="centerY" id="2P6-f2-JtF"/>
                             <constraint firstItem="Ezf-2q-K7K" firstAttribute="centerX" secondItem="i5z-Xc-kSg" secondAttribute="centerX" id="6NR-Gq-kw3"/>
+                            <constraint firstItem="Ezf-2q-K7K" firstAttribute="top" secondItem="z8C-mQ-9pQ" secondAttribute="bottom" constant="20" id="FRr-M3-fdf"/>
+                            <constraint firstItem="sYW-au-P8r" firstAttribute="centerX" secondItem="xDb-8L-Bb2" secondAttribute="centerX" id="O82-zN-RiO"/>
+                            <constraint firstItem="sYW-au-P8r" firstAttribute="top" secondItem="edp-L6-yPR" secondAttribute="bottom" constant="20" id="PhR-sh-912"/>
+                            <constraint firstItem="z8C-mQ-9pQ" firstAttribute="top" secondItem="sYW-au-P8r" secondAttribute="bottom" constant="20" id="QSV-ex-aJS"/>
                             <constraint firstItem="edp-L6-yPR" firstAttribute="centerX" secondItem="xDb-8L-Bb2" secondAttribute="centerX" id="nMz-gw-R9F"/>
-                            <constraint firstItem="Ezf-2q-K7K" firstAttribute="top" secondItem="edp-L6-yPR" secondAttribute="bottom" constant="20" id="yQh-mI-LfQ"/>
+                            <constraint firstItem="z8C-mQ-9pQ" firstAttribute="centerX" secondItem="i5z-Xc-kSg" secondAttribute="centerX" id="ziy-hp-q8M"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="resetPasswordButton" destination="sYW-au-P8r" id="63K-MG-VM8"/>
                         <outlet property="welcomeLabel" destination="edp-L6-yPR" id="nIq-2q-mQq"/>
                     </connections>
                 </viewController>
@@ -269,6 +294,9 @@
         <image name="logo_apple" width="33.333332061767578" height="33.333332061767578"/>
         <image name="logo_google" width="33.333332061767578" height="33.333332061767578"/>
         <image name="music.quarternote.3" catalog="system" width="128" height="102"/>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
