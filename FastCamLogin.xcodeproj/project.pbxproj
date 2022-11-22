@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8364503292C7E5900830B47 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8364502292C7E5800830B47 /* GoogleService-Info.plist */; };
+		F8364506292C80D200830B47 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F8364505292C80D200830B47 /* FirebaseAuth */; };
+		F836450D292C9BB500830B47 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = F836450C292C9BB500830B47 /* GoogleSignIn */; };
+		F836450F292C9BB500830B47 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F836450E292C9BB500830B47 /* GoogleSignInSwift */; };
 		F8D5D6F92910F41000DF4380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D5D6F82910F41000DF4380 /* AppDelegate.swift */; };
 		F8D5D6FB2910F41000DF4380 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D5D6FA2910F41000DF4380 /* SceneDelegate.swift */; };
-		F8D5D6FD2910F41000DF4380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D5D6FC2910F41000DF4380 /* ViewController.swift */; };
 		F8D5D7002910F41000DF4380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D5D6FE2910F41000DF4380 /* Main.storyboard */; };
 		F8D5D7022910F41100DF4380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D5D7012910F41100DF4380 /* Assets.xcassets */; };
 		F8D5D7052910F41100DF4380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D5D7032910F41100DF4380 /* LaunchScreen.storyboard */; };
 		F8D5D7102910F41100DF4380 /* FastCamLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D5D70F2910F41100DF4380 /* FastCamLoginTests.swift */; };
 		F8D5D71A2910F41100DF4380 /* FastCamLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D5D7192910F41100DF4380 /* FastCamLoginUITests.swift */; };
 		F8D5D71C2910F41100DF4380 /* FastCamLoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D5D71B2910F41100DF4380 /* FastCamLoginUITestsLaunchTests.swift */; };
+		F8F3C66B29137D930020F4DA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F3C66A29137D930020F4DA /* LoginViewController.swift */; };
+		F8F3C66D29137E080020F4DA /* EnterEmailViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F3C66C29137E080020F4DA /* EnterEmailViewViewController.swift */; };
+		F8F3C66F29137E490020F4DA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F3C66E29137E490020F4DA /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8364502292C7E5800830B47 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F8D5D6F52910F41000DF4380 /* FastCamLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastCamLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D5D6F82910F41000DF4380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8D5D6FA2910F41000DF4380 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F8D5D6FC2910F41000DF4380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8D5D6FF2910F41000DF4380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8D5D7012910F41100DF4380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8D5D7042910F41100DF4380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,9 @@
 		F8D5D7152910F41100DF4380 /* FastCamLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastCamLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D5D7192910F41100DF4380 /* FastCamLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastCamLoginUITests.swift; sourceTree = "<group>"; };
 		F8D5D71B2910F41100DF4380 /* FastCamLoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastCamLoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8F3C66A29137D930020F4DA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F8F3C66C29137E080020F4DA /* EnterEmailViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewViewController.swift; sourceTree = "<group>"; };
+		F8F3C66E29137E490020F4DA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F836450F292C9BB500830B47 /* GoogleSignInSwift in Frameworks */,
+				F8364506292C80D200830B47 /* FirebaseAuth in Frameworks */,
+				F836450D292C9BB500830B47 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +88,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8364507292C81CA00830B47 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				F8F3C66C29137E080020F4DA /* EnterEmailViewViewController.swift */,
+				F8F3C66E29137E490020F4DA /* MainViewController.swift */,
+				F8F3C66A29137D930020F4DA /* LoginViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
 		F8D5D6EC2910F41000DF4380 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +121,14 @@
 		F8D5D6F72910F41000DF4380 /* FastCamLogin */ = {
 			isa = PBXGroup;
 			children = (
-				F8D5D6F82910F41000DF4380 /* AppDelegate.swift */,
-				F8D5D6FA2910F41000DF4380 /* SceneDelegate.swift */,
-				F8D5D6FC2910F41000DF4380 /* ViewController.swift */,
+				F8364507292C81CA00830B47 /* VC */,
 				F8D5D6FE2910F41000DF4380 /* Main.storyboard */,
 				F8D5D7012910F41100DF4380 /* Assets.xcassets */,
 				F8D5D7032910F41100DF4380 /* LaunchScreen.storyboard */,
+				F8D5D6F82910F41000DF4380 /* AppDelegate.swift */,
+				F8D5D6FA2910F41000DF4380 /* SceneDelegate.swift */,
 				F8D5D7062910F41100DF4380 /* Info.plist */,
+				F8364502292C7E5800830B47 /* GoogleService-Info.plist */,
 			);
 			path = FastCamLogin;
 			sourceTree = "<group>";
@@ -143,6 +166,11 @@
 			dependencies = (
 			);
 			name = FastCamLogin;
+			packageProductDependencies = (
+				F8364505292C80D200830B47 /* FirebaseAuth */,
+				F836450C292C9BB500830B47 /* GoogleSignIn */,
+				F836450E292C9BB500830B47 /* GoogleSignInSwift */,
+			);
 			productName = FastCamLogin;
 			productReference = F8D5D6F52910F41000DF4380 /* FastCamLogin.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +243,10 @@
 				Base,
 			);
 			mainGroup = F8D5D6EC2910F41000DF4380;
+			packageReferences = (
+				F8364504292C80D200830B47 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F836450B292C9BB500830B47 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = F8D5D6F62910F41000DF4380 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +265,7 @@
 			files = (
 				F8D5D7052910F41100DF4380 /* LaunchScreen.storyboard in Resources */,
 				F8D5D7022910F41100DF4380 /* Assets.xcassets in Resources */,
+				F8364503292C7E5900830B47 /* GoogleService-Info.plist in Resources */,
 				F8D5D7002910F41000DF4380 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8D5D6FD2910F41000DF4380 /* ViewController.swift in Sources */,
+				F8F3C66B29137D930020F4DA /* LoginViewController.swift in Sources */,
 				F8D5D6F92910F41000DF4380 /* AppDelegate.swift in Sources */,
+				F8F3C66D29137E080020F4DA /* EnterEmailViewViewController.swift in Sources */,
 				F8D5D6FB2910F41000DF4380 /* SceneDelegate.swift in Sources */,
+				F8F3C66F29137E490020F4DA /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +637,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F8364504292C80D200830B47 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		F836450B292C9BB500830B47 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F8364505292C80D200830B47 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8364504292C80D200830B47 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F836450C292C9BB500830B47 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F836450B292C9BB500830B47 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		F836450E292C9BB500830B47 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F836450B292C9BB500830B47 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F8D5D6ED2910F41000DF4380 /* Project object */;
 }
